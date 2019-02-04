@@ -1,0 +1,7 @@
+'use strict';
+
+import React, { AppRegistry } from 'react-native';
+import App from './app/containers/app';
+import { name as appName } from './app.json';
+
+AppRegistry.registerComponent('Counter', () => App);
