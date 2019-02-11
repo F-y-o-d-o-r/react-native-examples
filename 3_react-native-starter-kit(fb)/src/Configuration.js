@@ -1,4 +1,4 @@
-import moment from "moment";
+import moment from 'moment';
 
 export const Configuration = {
   home: {
@@ -23,8 +23,8 @@ export const Configuration = {
       longitude: 0.0221
     }
   },
-  timeFormat: postTime => {
-    time = "";
+  timeFormat: (postTime) => {
+    time = '';
     if (postTime) {
       time = moment(postTime).fromNow();
     }

@@ -1,0 +1,40 @@
+{
+  "history" : {
+    "steve" : {
+      "leo_0" : false,
+      "leo_1" : true,
+      "olga_0" : true
+    }
+  },
+  "posts" : {
+    "leo_0" : {
+      "created" : 0,
+      "text" : "wonderful ice cream",
+      "url" : "",
+      "user" : "leo",
+      "viewedBy" : {
+        "olga" : true,
+        "steve" : true
+      }
+    },
+    "leo_1" : {
+      "created" : 0,
+      "text" : "perfect salad",
+      "url" : "",
+      "user" : "leo",
+      "viewedBy" : {
+        "olga" : true,
+        "steve" : true
+      }
+    },
+    "olga_0" : {
+      "created" : 0,
+      "text" : "great pizza",
+      "url" : "",
+      "user" : "olga",
+      "viewedBy" : {
+        "steve" : true
+      }
+    }
+  }
+}
